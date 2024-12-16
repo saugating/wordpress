@@ -1,0 +1,1282 @@
+/**
+ * Created by Sushant Gauchan
+ * Email : sushant.gauchan11@gmail.com
+*/
+/*-------------------------------------- Fonts Starts -------------------------------------*/
+/*--------------------------------------- Fonts Ends --------------------------------------*/
+/*------------------------------------- Colors Starts -------------------------------------*/
+/*-------------------------------------- Colors Ends --------------------------------------*/
+/*-------------------------------------- Mixins Starts ------------------------------------*/
+.ex-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+.ex-flex-wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.ex-vertical {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.ex-transition {
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  transition: all .6s ease;
+}
+
+.ex-transition-medium {
+  -webkit-transition: all 1.2s ease;
+  -moz-transition: all 1.2s ease;
+  -ms-transition: all 1.2s ease;
+  -o-transition: all 1.2s ease;
+  transition: all 1.2s ease;
+}
+
+.ex-transition-large {
+  -webkit-transition: all 1.8s ease;
+  -moz-transition: all 1.8s ease;
+  -ms-transition: all 1.8s ease;
+  -o-transition: all 1.8s ease;
+  transition: all 1.8s ease;
+}
+
+/*--------------------------------------- Mixins Ends -------------------------------------*/
+@media all and (max-width: 1800px) {
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  .custom-container {
+    padding: 180px;
+  }
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+  #header-wrapper .custom-container .logo-nav-wrapper .logo-container {
+    max-width: 150px;
+  }
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+}
+
+@media all and (max-width: 1700px) {
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  .custom-container {
+    padding: 125px 125px;
+  }
+  body {
+    line-height: 1.6em;
+    font-size: 17px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.6em;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  #header-wrapper .custom-container .logo-nav-wrapper {
+    padding: 35px 0;
+  }
+  #header-wrapper .custom-container .logo-nav-wrapper .logo-container {
+    max-width: 130px;
+  }
+  #header-wrapper .custom-container .logo-nav-wrapper .mobile-toggle .image-container {
+    width: 30px;
+  }
+  .menu-nav-container .menuItems, .menu-nav-container .menu {
+    padding: 0 90px;
+  }
+  .menu-nav-container .menuItems li a, .menu-nav-container .menu li a {
+    font-size: 28px;
+  }
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper #home-page .latest-products .block-container {
+    margin-top: 80px;
+  }
+  #content-wrapper #home-page .latest-products .block-container .block-item .product-status p {
+    height: 80px;
+    width: 80px;
+  }
+  #content-wrapper #home-page .latest-products .block-container .block-item .image-container {
+    height: 425px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .section-container {
+    margin-bottom: 90px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .section-container .image-container {
+    height: 500px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container {
+    max-width: 1000px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(1) {
+    padding: 45px 60px 45px 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) {
+    padding: 45px 0 45px 60px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) .section-container {
+    padding-top: 60px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) .section-container .section-title .marker {
+    top: 7px;
+    left: -106px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) .section-container .section-title .marker:after {
+    left: 5px;
+    width: 60px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(1) {
+    padding: 45px 0 45px 60px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(2) {
+    padding: 45px 60px 45px 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(2) .section-container .section-title .marker {
+    right: -106px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(2) .section-container .section-title .marker:after {
+    left: -55px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:last-of-type .block-item:nth-child(1) {
+    padding-bottom: 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:last-of-type .block-item:nth-child(2) {
+    padding-bottom: 0;
+  }
+  #content-wrapper #contact-page .common-imgparallax .custom-container .block-container .block-item:last-child .section-container {
+    height: 650px;
+    padding: 20px;
+  }
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+  /*-------------------------------- Components Starts --------------------------------------*/
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  /*--------------------------------- Components Ends ----------------------------------*/
+  .backimage {
+    width: 300px;
+    bottom: -200px;
+  }
+  .block-container.c2 {
+    margin: -40px;
+  }
+  .block-container.c2 .block-item {
+    padding: 40px;
+  }
+  .block-container.c3 {
+    margin: -50px;
+  }
+  .block-container.c3 .block-item {
+    padding: 50px;
+  }
+  .block-container.c4 {
+    margin: -15px;
+  }
+  .block-container.c4 .block-item {
+    padding: 15px;
+  }
+  .common-about .craft .block-item .section-container:nth-child(1) {
+    padding-right: 25px;
+  }
+  .common-about .craft .block-item .section-container:nth-child(2) {
+    padding-left: 25px;
+  }
+  .common-about .craft .block-item:nth-child(1) {
+    padding-right: 25px;
+  }
+  .common-about .craft .block-item:nth-child(1) .section-container:nth-child(1) {
+    margin-top: 180px;
+  }
+  .common-about .craft .block-item:nth-child(2) {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .common-about .craft .block-item:last-child {
+    padding-left: 25px;
+  }
+  .common-about .craft .block-item:last-child .section-container:not(:last-of-type) {
+    margin-bottom: 50px;
+  }
+  .common-banner .banner-item .text-container .custom-container .section-container {
+    max-width: 1025px;
+  }
+  .common-banner .banner-item.type-small {
+    height: 75vh;
+    min-height: 500px;
+    max-height: 500px;
+  }
+  .common-blog-layout .custom-container .block-container {
+    margin: -25px;
+    align-items: flex-start;
+  }
+  .common-blog-layout .custom-container .block-container .block-item {
+    padding: 25px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:first-child {
+    width: calc(100% - 500px);
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child {
+    width: 500px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child .blog-snippets {
+    margin-top: 60px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child .blog-snippets .section-body .snippet-container .image-container {
+    width: 140px;
+    height: 120px;
+    margin-right: 30px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child .blog-snippets .section-body .snippet-container .section-title {
+    width: calc(100% - 170px);
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child .blog-snippets .section-body .snippet-container:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child .blog-categories {
+    margin-top: 60px;
+  }
+  .common-form {
+    padding: 60px;
+  }
+  .common-form .fields {
+    padding-top: 60px;
+    margin: 0 -25px;
+  }
+  .common-form .fields .common-flexbox-fields {
+    margin-bottom: 50px;
+  }
+  .common-form .fields .form-group {
+    padding: 0 25px;
+  }
+  .common-form .fields .form-group label {
+    font-size: 17px;
+  }
+  .common-form .form-action .co-btn {
+    padding: 14.5px 30px;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:first-child {
+    width: calc(100% - 750px);
+    padding-top: 100px;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:last-child {
+    width: 750px;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:last-child .image-container:first-child {
+    width: 400px;
+    height: 450px;
+    left: 40px;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:last-child .image-container:last-child {
+    width: 500px;
+    height: 600px;
+  }
+  .common-subscribe .custom-container .section-container {
+    padding: 90px 125px 110px 125px;
+  }
+  .common-subscribe .custom-container .section-container .section-links .common-form .form-action {
+    line-height: 1.8em;
+  }
+  .section-container.type-small {
+    max-width: 650px;
+  }
+  .section-container.type-medium {
+    max-width: 900px;
+  }
+  .section-container.blog-card .image-container {
+    height: 400px;
+  }
+  .section-container.blog-card .section-links.type-with-sharing .share-link ul li:not(:last-of-type) {
+    margin-right: 30px;
+  }
+  .section-container.blog-card:not(:last-of-type) {
+    padding-bottom: 90px;
+  }
+  .social-links ul li a .image-container {
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+  }
+  .social-links ul li:not(:last-of-type) {
+    margin-right: 50px;
+  }
+  /*--------------------------------- Components Ends ---------------------------------------*/
+  /*-------------------------------- Footer Wrapper Starts ---------------------------------*/
+  #footer-wrapper .custom-container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  #footer-wrapper .custom-container .logo-container {
+    max-width: 170px;
+  }
+  #footer-wrapper .custom-container .contact-info {
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  #footer-wrapper .custom-container .footer-nav {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  /*--------------------------------- Footer Wrapper Ends ----------------------------------*/
+  /*-------------------------------------- Modal Starts -------------------------------------*/
+  #historyModal .modal-dialog, #craftsModal .modal-dialog {
+    max-width: 800px;
+  }
+  #historyModal .modal-dialog .modal-content, #craftsModal .modal-dialog .modal-content {
+    padding: 0 30px 70px;
+  }
+  #historyModal .modal-dialog .modal-content .close, #craftsModal .modal-dialog .modal-content .close {
+    right: 30px;
+    top: 30px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .section-title, #historyModal .modal-dialog .modal-content .modal-body .section-body, #craftsModal .modal-dialog .modal-content .modal-body .section-title, #craftsModal .modal-dialog .modal-content .modal-body .section-body {
+    padding: 0 30px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .section-title, #craftsModal .modal-dialog .modal-content .modal-body .section-title {
+    margin-top: -45px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .section-body, #craftsModal .modal-dialog .modal-content .modal-body .section-body {
+    margin-top: 50px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .type-mid, #craftsModal .modal-dialog .modal-content .modal-body .type-mid {
+    padding: 0 90px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .block-container, #craftsModal .modal-dialog .modal-content .modal-body .block-container {
+    margin: -20px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .block-container .block-item, #craftsModal .modal-dialog .modal-content .modal-body .block-container .block-item {
+    padding: 20px;
+  }
+  /*--------------------------------------- Modal Ends --------------------------------------*/
+}
+
+@media all and (max-width: 1399px) {
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  .custom-container {
+    padding: 100px 75px;
+  }
+  body {
+    line-height: 1.4em;
+    font-size: 16px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4em;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 27px;
+  }
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  #header-wrapper .custom-container .logo-nav-wrapper {
+    padding: 20px 0;
+  }
+  #header-wrapper .custom-container .logo-nav-wrapper .logo-container {
+    max-width: 120px;
+  }
+  #header-wrapper .custom-container .logo-nav-wrapper .mobile-toggle .image-container {
+    width: 25px;
+  }
+  .menu-nav-container #main-side-menu {
+    width: 500px;
+  }
+  .menu-nav-container .menu-side-nav {
+    width: 500px;
+    right: -500px;
+  }
+  .menu-nav-container .menuItems, .menu-nav-container .menu {
+    padding: 0 60px;
+  }
+  .menu-nav-container .menuItems li, .menu-nav-container .menu li {
+    padding: 12.5px 0;
+  }
+  .menu-nav-container .menuItems li a, .menu-nav-container .menu li a {
+    font-size: 25px;
+  }
+  .menu-nav-container .close-btn {
+    top: 40px;
+    right: 30px;
+    font-size: 40px;
+  }
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper #home-page .latest-products .block-container {
+    margin-top: 70px;
+  }
+  #content-wrapper #home-page .latest-products .block-container .block-item .product-status p {
+    height: 60px;
+    width: 60px;
+    left: 20px;
+    font-size: 12px;
+  }
+  #content-wrapper #home-page .latest-products .block-container .block-item .image-container {
+    height: 325px;
+  }
+  #content-wrapper #our-story-page .about-rupa .custom-container .block-container .block-item:nth-child(1) .image-container {
+    margin-top: 60px;
+  }
+  #content-wrapper #our-story-page .common-about .craft {
+    margin-top: 40px;
+  }
+  #content-wrapper #our-story-page .our-values .custom-container .section-container {
+    margin-bottom: 70px;
+  }
+  #content-wrapper #our-story-page .our-values .custom-container .block-container .block-item .section-container .section-title span {
+    font-size: 60px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .section-container {
+    margin-bottom: 70px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(1) {
+    padding: 35px 50px 35px 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) {
+    padding: 35px 0 35px 50px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) .section-container {
+    padding-top: 50px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) .section-container .section-title .marker {
+    left: -96px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(1) {
+    padding: 35px 0 35px 50px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(2) {
+    padding: 35px 50px 35px 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(2) .section-container .section-title .marker {
+    right: -96px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:last-of-type .block-item:nth-child(1) {
+    padding-bottom: 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:last-of-type .block-item:nth-child(2) {
+    padding-bottom: 0;
+  }
+  #content-wrapper #contact-page .common-imgparallax .custom-container .block-container .block-item:last-child .section-container {
+    padding: 15px;
+  }
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+  /*-------------------------------- Footer Wrapper Starts ---------------------------------*/
+  #footer-wrapper .custom-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  #footer-wrapper .custom-container .footer-nav {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  /*--------------------------------- Footer Wrapper Ends ----------------------------------*/
+  /*--------------------------------- Components Ends ----------------------------------*/
+  .backimage {
+    width: 250px;
+    bottom: -200px;
+  }
+  .block-container.c2 {
+    margin: -30px;
+  }
+  .block-container.c2 .block-item {
+    padding: 30px;
+  }
+  .block-container.c3 {
+    margin: -30px -20px;
+  }
+  .block-container.c3 .block-item {
+    padding: 30px 20px;
+  }
+  .block-container.c4 {
+    margin: -10px;
+  }
+  .block-container.c4 .block-item {
+    padding: 10px;
+  }
+  .common-about .custom-container {
+    padding-bottom: 100px;
+  }
+  .common-about .custom-container .section-container .section-body {
+    max-width: 450px;
+  }
+  .common-about .craft .block-item .section-container:nth-child(1) {
+    padding-right: 15px;
+  }
+  .common-about .craft .block-item .section-container:nth-child(2) {
+    padding-left: 15px;
+  }
+  .common-about .craft .block-item:nth-child(1) {
+    padding-right: 15px;
+    margin-top: -70px;
+  }
+  .common-about .craft .block-item:nth-child(1) .section-container:nth-child(1) {
+    margin-top: 150px;
+  }
+  .common-about .craft .block-item:nth-child(2) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .common-about .craft .block-item:last-child {
+    padding-left: 15px;
+    margin-top: -150px;
+  }
+  .common-about .craft .block-item:last-child .section-container:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+  .common-banner .banner-item .text-container .custom-container .section-container {
+    max-width: 900px;
+  }
+  .common-banner .banner-item.type-small {
+    height: 75vh;
+    min-height: 450px;
+    max-height: 450px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:first-child {
+    width: calc(100% - 400px);
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child {
+    width: 400px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child .blog-snippets {
+    margin-top: 60px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child .blog-snippets .section-body .snippet-container .image-container {
+    width: 110px;
+    height: 90px;
+    margin-right: 30px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child .blog-snippets .section-body .snippet-container .section-title {
+    width: calc(100% - 140px);
+  }
+  .common-form {
+    padding: 50px;
+  }
+  .common-form .fields {
+    padding-top: 40px;
+    margin: 0 -15px;
+  }
+  .common-form .fields .common-flexbox-fields {
+    margin-bottom: 30px;
+  }
+  .common-form .fields .form-group {
+    padding: 0 15px;
+  }
+  .common-form .fields .form-group label {
+    font-size: 16px;
+  }
+  .common-history .custom-container .section-container {
+    margin-bottom: 70px;
+  }
+  .common-history .custom-container .c2 {
+    margin: -30px;
+  }
+  .common-history .custom-container .c2 .block-item {
+    padding: 30px;
+  }
+  .common-history .custom-container .c2 .block-item:nth-child(1) {
+    width: 540px;
+  }
+  .common-history .custom-container .c2 .block-item:nth-child(2) {
+    width: calc(100% - 540px);
+  }
+  .common-imgparallax .custom-container .block-container .block-item:first-child {
+    width: 40%;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:last-child {
+    width: 60%;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:last-child .image-container:first-child {
+    width: 50%;
+    height: 400px;
+    left: 30px;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:last-child .image-container:last-child {
+    width: 75%;
+    height: 550px;
+  }
+  .common-subscribe .custom-container .section-container {
+    margin-top: -255px;
+    padding: 60px 60px 80px 60px;
+  }
+  .section-container.type-medium {
+    max-width: 800px;
+  }
+  .section-container.type-small {
+    max-width: 550px;
+  }
+  .section-container.blog-card .image-container {
+    height: 350px;
+  }
+  .section-container.blog-card:not(:last-of-type) {
+    padding-bottom: 75px;
+  }
+  .social-links ul li:not(:last-of-type) {
+    margin-right: 30px;
+  }
+  /*--------------------------------- Components Ends -----------------------------------*/
+  /*-------------------------------------- Modal Starts -------------------------------------*/
+  #historyModal .modal-dialog, #craftsModal .modal-dialog {
+    max-width: 700px;
+  }
+  #historyModal .modal-dialog .modal-content, #craftsModal .modal-dialog .modal-content {
+    padding: 0 20px 60px;
+  }
+  #historyModal .modal-dialog .modal-content .close, #craftsModal .modal-dialog .modal-content .close {
+    right: 20px;
+    top: 20px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .section-title, #historyModal .modal-dialog .modal-content .modal-body .section-body, #craftsModal .modal-dialog .modal-content .modal-body .section-title, #craftsModal .modal-dialog .modal-content .modal-body .section-body {
+    padding: 0 20px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .section-title, #craftsModal .modal-dialog .modal-content .modal-body .section-title {
+    margin-top: -35px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .section-body, #craftsModal .modal-dialog .modal-content .modal-body .section-body {
+    margin-top: 40px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .type-mid, #craftsModal .modal-dialog .modal-content .modal-body .type-mid {
+    padding: 0 60px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .block-container, #craftsModal .modal-dialog .modal-content .modal-body .block-container {
+    margin: -10px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .block-container .block-item, #craftsModal .modal-dialog .modal-content .modal-body .block-container .block-item {
+    padding: 10px;
+  }
+  /*--------------------------------------- Modal Ends --------------------------------------*/
+}
+
+@media all and (max-width: 1199px) {
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  .custom-container {
+    padding: 75px 45px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 23px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  .menu-nav-container #main-side-menu {
+    width: 400px;
+  }
+  .menu-nav-container .menu-side-nav {
+    width: 400px;
+    left: -400px;
+  }
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper #home-page .latest-products .block-container {
+    margin-top: 45px;
+  }
+  #content-wrapper #home-page .latest-products .block-container .block-item .product-status p {
+    height: 50px;
+    width: 50px;
+    left: 35px;
+    top: -0px;
+    font-size: 10px;
+  }
+  #content-wrapper #home-page .latest-products .block-container .block-item .image-container {
+    height: 300px;
+  }
+  #content-wrapper #our-story-page .our-values .custom-container .section-container {
+    margin-bottom: 60px;
+  }
+  #content-wrapper #our-story-page .our-values .custom-container .block-container {
+    justify-content: flex-start;
+  }
+  #content-wrapper #our-story-page .our-values .custom-container .block-container .block-item .section-container .section-title span {
+    font-size: 50px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .section-container {
+    margin-bottom: 45px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item .section-container .image-container {
+    height: 400px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(1) {
+    padding: 30px 30px 30px 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) {
+    padding: 30px 0 30px 30px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) .section-container {
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) .section-container .section-title .marker {
+    left: -66px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) .section-container .section-title .marker:after {
+    width: 40px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(1) {
+    padding: 30px 0 30px 30px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(2) {
+    padding: 30px 30px 30px 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(2) .section-container {
+    padding-right: 30px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(2) .section-container .section-title .marker {
+    right: -66px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(2) .section-container .section-title .marker:after {
+    left: -33px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:last-of-type .block-item:nth-child(1) {
+    padding-bottom: 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:last-of-type .block-item:nth-child(2) {
+    padding-bottom: 0;
+  }
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+  .block-container.c2 {
+    margin: -15px;
+  }
+  .block-container.c2 .block-item {
+    padding: 15px;
+  }
+  .block-container.c3 {
+    margin: -30px -15px;
+  }
+  .block-container.c3 .block-item {
+    width: 50%;
+    padding: 30px 15px;
+  }
+  .block-container.c4 {
+    margin: -15px;
+  }
+  .block-container.c4 .block-item {
+    padding: 15px;
+    width: 50%;
+  }
+  .common-about .craft .block-item .section-container:nth-child(1) {
+    padding-right: 10px;
+  }
+  .common-about .craft .block-item .section-container:nth-child(2) {
+    padding-left: 10px;
+  }
+  .common-about .craft .block-item:nth-child(1) {
+    padding-right: 10px;
+  }
+  .common-about .craft .block-item:nth-child(1) .section-container:nth-child(1) {
+    margin-top: 120px;
+  }
+  .common-about .craft .block-item:nth-child(2) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .common-about .craft .block-item:last-child {
+    padding-left: 10px;
+    margin-top: -150px;
+  }
+  .common-about .craft .block-item:last-child .section-container:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+  .common-banner .banner-item .text-container .custom-container .section-container {
+    max-width: 675px;
+  }
+  .common-blog-layout .custom-container .block-container {
+    margin: -15px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item {
+    padding: 15px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:first-child {
+    width: calc(100% - 300px);
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child {
+    width: 300px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child .blog-snippets {
+    margin-top: 60px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child .blog-snippets .section-body .snippet-container .image-container {
+    width: 100px;
+    height: 100px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child .blog-snippets .section-body .snippet-container .section-title {
+    width: calc(100% - 130px);
+  }
+  .common-form {
+    padding: 40px;
+  }
+  .common-history .custom-container .section-container {
+    margin-bottom: 45px;
+  }
+  .common-history .custom-container .c2 {
+    margin: -15px;
+  }
+  .common-history .custom-container .c2 .block-item {
+    padding: 15px;
+  }
+  .common-history .custom-container .c2 .block-item:nth-child(1) {
+    width: 40%;
+  }
+  .common-history .custom-container .c2 .block-item:nth-child(2) {
+    width: 60%;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:first-child {
+    width: 50%;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:last-child {
+    width: 50%;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:last-child .image-container:first-child {
+    width: 60%;
+    left: 15px;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:last-child .image-container:last-child {
+    width: 80%;
+  }
+  .common-subscribe .custom-container .section-container {
+    margin-top: 0;
+    padding: 45px 45px 45px 45px;
+    background-color: #000000;
+  }
+  .section-container.blog-card .image-container {
+    height: 300px;
+  }
+  .section-container.blog-card .section-links.type-with-sharing .share-link ul li a .image-container {
+    height: 20px;
+    width: 20px;
+  }
+  .section-container.blog-card .section-links.type-with-sharing .share-link ul li:not(:last-of-type) {
+    margin-right: 25px;
+  }
+  .section-container.blog-card:not(:last-of-type) {
+    padding-bottom: 60px;
+  }
+  /*-------------------------------------- Modal Starts -------------------------------------*/
+  #historyModal .modal-dialog .modal-content .modal-body .section-title, #historyModal .modal-dialog .modal-content .modal-body .section-body, #craftsModal .modal-dialog .modal-content .modal-body .section-title, #craftsModal .modal-dialog .modal-content .modal-body .section-body {
+    padding: 0 10px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .section-title, #craftsModal .modal-dialog .modal-content .modal-body .section-title {
+    margin-top: -25px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .section-body, #craftsModal .modal-dialog .modal-content .modal-body .section-body {
+    margin-top: 30px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .type-mid, #craftsModal .modal-dialog .modal-content .modal-body .type-mid {
+    padding: 0 10px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .block-container, #craftsModal .modal-dialog .modal-content .modal-body .block-container {
+    margin: -7.5px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .block-container .block-item, #craftsModal .modal-dialog .modal-content .modal-body .block-container .block-item {
+    padding: 7.5px;
+    width: 50%;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .block-container .block-item:not(:last-of-type), #craftsModal .modal-dialog .modal-content .modal-body .block-container .block-item:not(:last-of-type) {
+    margin-bottom: 0;
+  }
+  /*--------------------------------------- Modal Ends --------------------------------------*/
+}
+
+@media all and (max-width: 767px) {
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  .custom-container {
+    padding: 60px 30px;
+  }
+  .section-body {
+    margin-top: 15px;
+  }
+  .section-body.add-top-margin {
+    margin-top: 15px !important;
+  }
+  .section-links {
+    margin-top: 25px;
+  }
+  .imgscroll, .imgscroll2 {
+    padding-top: 30px;
+  }
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  #header-wrapper .custom-container .logo-nav-wrapper {
+    padding: 15px 0;
+  }
+  #header-wrapper .custom-container .logo-nav-wrapper .logo-container {
+    max-width: 100px;
+  }
+  .menu-nav-container #main-side-menu {
+    width: 100%;
+  }
+  .menu-nav-container .menu-side-nav {
+    width: 100%;
+    left: -100%;
+  }
+  .menu-nav-container .menuItems, .menu-nav-container .menu {
+    padding: 0 30px;
+  }
+  .menu-nav-container .menuItems li, .menu-nav-container .menu li {
+    padding: 10px 0;
+  }
+  .menu-nav-container .menuItems li a, .menu-nav-container .menu li a {
+    font-size: 20px;
+  }
+  .menu-nav-container .close-btn {
+    top: 30px;
+    right: 30px;
+    font-size: 30px;
+  }
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper #home-page .latest-products .block-container .block-item .product-status p {
+    left: 20px;
+    top: -5px;
+  }
+  #content-wrapper #home-page .latest-products .block-container .block-item .image-container {
+    height: 225px;
+  }
+  #content-wrapper #home-page .latest-blogs .custom-container .block-container .block-item:first-child .section-container:first-child {
+    margin-bottom: 30px;
+  }
+  #content-wrapper #our-story-page .about-rupa .custom-container .block-container .block-item:nth-child(1) {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  #content-wrapper #our-story-page .about-rupa .custom-container .block-container .block-item:nth-child(1) .image-container {
+    margin-top: 30px;
+  }
+  #content-wrapper #our-story-page .common-about .craft {
+    margin-top: 0;
+  }
+  #content-wrapper #our-story-page .our-values .custom-container .section-container {
+    margin-bottom: 60px;
+  }
+  #content-wrapper #our-story-page .our-values .custom-container .block-container {
+    justify-content: flex-start;
+  }
+  #content-wrapper #our-story-page .our-values .custom-container .block-container .block-item .section-container .section-title span {
+    font-size: 50px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item {
+    width: 100%;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item .section-container .image-container {
+    height: 300px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(1) {
+    padding: 0;
+    border-right: 0;
+    margin-bottom: 30px;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) {
+    padding: 0;
+    border-left: 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) .section-container {
+    padding-top: 0;
+    padding-left: 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container .block-item:nth-child(2) .section-container .section-title .marker {
+    display: none;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(1) {
+    padding: 0;
+    border-right: 0;
+    border-left: 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(2) {
+    padding: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(odd) .block-item:nth-child(2) .section-container {
+    padding-right: 0;
+    text-align: left;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(2) .block-item:nth-child(1) {
+    padding-top: 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:nth-child(2) .block-item:nth-child(2) {
+    padding-top: 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:last-of-type .block-item:nth-child(1) {
+    padding-bottom: 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:last-of-type .block-item:nth-child(2) {
+    padding-bottom: 0;
+  }
+  #content-wrapper #our-crafts-page .crafts-layout .custom-container .block-container:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+  #content-wrapper #contact-page .common-imgparallax .custom-container .block-container .block-item:last-child .section-container {
+    height: 400px;
+    padding: 10px;
+  }
+  #content-wrapper #contact-page .enquiry .custom-container .common-form {
+    width: 100%;
+    max-width: 1225px;
+  }
+  #content-wrapper #error-page .custom-container .image-container {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+  /*-------------------------------- Footer Wrapper Starts ---------------------------------*/
+  #footer-wrapper .custom-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  #footer-wrapper .custom-container .logo-container {
+    max-width: 175px;
+  }
+  #footer-wrapper .custom-container .footer-nav {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  #footer-wrapper .custom-container .footer-nav ul {
+    display: block;
+  }
+  #footer-wrapper .custom-container .footer-nav ul li {
+    width: 100%;
+  }
+  #footer-wrapper .custom-container .footer-nav ul li:not(:last-of-type) {
+    margin-bottom: 15px;
+  }
+  /*--------------------------------- Footer Wrapper Ends ----------------------------------*/
+  /*--------------------------------- Components Ends ----------------------------------*/
+  .backimage {
+    width: 150px;
+    bottom: -120px;
+  }
+  .backimage.top {
+    top: 20px;
+  }
+  .backimage.bottom {
+    bottom: -80px;
+  }
+  .backimage.before-footer {
+    left: 0;
+    bottom: 0px;
+  }
+  .block-container {
+    position: relative;
+  }
+  .block-container.c2 {
+    margin: 0;
+  }
+  .block-container.c2 .block-item {
+    padding: 0;
+    width: 100%;
+  }
+  .block-container.c2 .block-item:not(:last-of-type) {
+    margin-bottom: 60px;
+  }
+  .block-container.c3 {
+    margin: -15px;
+  }
+  .block-container.c3 .block-item {
+    padding: 15px;
+    width: 100%;
+  }
+  .block-container.c4 {
+    margin: -15px -7.5px;
+  }
+  .block-container.c4 .block-item {
+    padding: 15px 7.5px;
+    width: 50%;
+  }
+  .common-about .craft .block-item {
+    width: 100%;
+  }
+  .common-about .craft .block-item .section-container {
+    width: 50%;
+  }
+  .common-about .craft .block-item .section-container:nth-child(1) {
+    padding-right: 7.5px;
+  }
+  .common-about .craft .block-item .section-container:nth-child(2) {
+    padding-left: 7.5px;
+  }
+  .common-about .craft .block-item:nth-child(1) {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 0;
+  }
+  .common-about .craft .block-item:nth-child(1) .section-container:nth-child(1) {
+    width: 55%;
+    margin-top: -50px;
+  }
+  .common-about .craft .block-item:nth-child(1) .section-container:nth-child(2) {
+    width: 45%;
+  }
+  .common-about .craft .block-item:nth-child(2), .common-about .craft .block-item:last-child {
+    display: none;
+  }
+  .common-banner .banner-item.type-small {
+    height: 75vh;
+    min-height: 350px;
+    max-height: 350px;
+  }
+  .common-blog-layout .custom-container .block-container {
+    margin: 0;
+  }
+  .common-blog-layout .custom-container .block-container .block-item {
+    padding: 0;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:first-child {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child {
+    width: 100%;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child .blog-snippets .section-body .snippet-container .image-container {
+    margin-right: 15px;
+  }
+  .common-blog-layout .custom-container .block-container .block-item:last-child .blog-snippets .section-body .snippet-container:not(:last-of-type) {
+    margin-bottom: 15px;
+  }
+  .common-form {
+    padding: 30px;
+  }
+  .common-form .fields .common-flexbox-fields {
+    width: 100%;
+  }
+  .common-form .fields .common-flexbox-fields .flex-field {
+    width: 100%;
+  }
+  .common-form .fields .common-flexbox-fields .form-group:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+  .common-form .fields .form-group input, .common-form .fields .form-group select, .common-form .fields .form-group textarea {
+    padding: 10px 15px;
+  }
+  .common-form .fields .form-group textarea {
+    height: 100px;
+  }
+  .common-form .form-action {
+    margin-top: 30px;
+  }
+  .common-form .form-action .co-btn {
+    padding: 15px 25px;
+  }
+  .common-history .custom-container .c2 {
+    margin: 0;
+  }
+  .common-history .custom-container .c2 .block-item {
+    padding: 0;
+  }
+  .common-history .custom-container .c2 .block-item:nth-child(1) {
+    width: 100%;
+  }
+  .common-history .custom-container .c2 .block-item:nth-child(1) .section-container {
+    text-align: center;
+  }
+  .common-history .custom-container .c2 .block-item:nth-child(1) .section-container .section-links a {
+    float: none;
+    margin: auto;
+  }
+  .common-history .custom-container .c2 .block-item:nth-child(1) .section-container .section-links a:before {
+    margin-left: -30px;
+  }
+  .common-history .custom-container .c2 .block-item:nth-child(2) {
+    width: 100%;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:first-child {
+    width: 100%;
+    padding-top: 0;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:last-child {
+    width: 100%;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:last-child .image-container:first-child {
+    width: 65%;
+    height: auto;
+    left: 0;
+  }
+  .common-imgparallax .custom-container .block-container .block-item:last-child .image-container:last-child {
+    width: 80%;
+    height: auto;
+  }
+  .common-subscribe .custom-container .section-container {
+    padding: 45px 30px 45px 30px;
+  }
+  .common-subscribe .custom-container .section-container .section-links .common-form {
+    flex-wrap: wrap;
+  }
+  .common-subscribe .custom-container .section-container .section-links .common-form .form-action {
+    width: 100%;
+  }
+  .common-subscribe .custom-container .section-container .section-links .common-form .form-action .co-btn {
+    width: 100%;
+    line-height: 1em;
+  }
+  .section-container.blog-card .image-container {
+    height: 250px;
+    margin-bottom: 25px;
+  }
+  /*--------------------------------- Components Ends ---------------------------------------*/
+  .slick-slider .slick-dots li {
+    height: 12px;
+    width: 12px;
+  }
+  .slick-slider .slick-dots li:not(:last-of-type) {
+    margin-right: 7.5px;
+  }
+  .slick-slider .slick-dots li button {
+    height: 12px;
+    width: 12px;
+  }
+  .slick-slider.slick-dotted .slick-dots {
+    bottom: -30px;
+  }
+  /*-------------------------------------- Modal Starts -------------------------------------*/
+  #historyModal .modal-dialog, #craftsModal .modal-dialog {
+    margin: 40px 30px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .block-container, #craftsModal .modal-dialog .modal-content .modal-body .block-container {
+    margin: -7.5px;
+  }
+  #historyModal .modal-dialog .modal-content .modal-body .block-container .block-item, #craftsModal .modal-dialog .modal-content .modal-body .block-container .block-item {
+    width: 100%;
+  }
+  /*--------------------------------------- Modal Ends --------------------------------------*/
+}
+
+/*# sourceMappingURL=responsive.css.map */

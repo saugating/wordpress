@@ -1,0 +1,261 @@
+/**
+ * Created by Imagio Creations
+ * Email : info@imagiocreations.com
+*/
+
+@import "components/fonts_and_colors";
+
+html{
+  height: 100%;
+}
+
+body{
+  // background: url('../img/placeholder/Back00.webp') no-repeat;
+  // background-color: $placeholder-background;
+  // background-size: 100%;
+  // background-position: top center;
+  color: $text-color;
+  display: block;
+  height: 100%;
+  font-family: $font-type-1;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+  color: #050505;
+  font-family: $font-type-2;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 250ms ease-in-out;
+  &:link, &:visited {
+    text-decoration: none
+  }
+  &:focus {
+    outline: none
+  }
+  &:hover,&:focus,&:active {
+    color: $primary-color;
+    transition: 250ms ease-in-out;
+  }
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $font-type-2;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 87px;
+  font-weight: 400;
+  line-height: 50px;
+}
+h2 {
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 75px;
+}
+h3{
+  color: $title-color;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 47px;
+}
+h4{
+  color: $title-color;
+  font-size: 24px;
+  line-height: 30px;
+}
+h5{
+  font-size: 18px;
+}
+h6 {
+  font-size: 16px;
+}
+
+p{
+  margin: 0;
+  &:not(:last-of-type) {
+    margin-bottom: 18px;
+  }
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  li{
+    list-style: none;
+  }
+}
+
+#wrapper{
+  min-height: 100%;
+  position: relative;
+}
+
+.slick-slider{
+  .slick-slide{
+    outline: none;
+  }
+}
+
+.custom-container{
+  max-width: 1920px;
+  margin: auto;
+  padding: 120px 280px;
+
+  &.remove-top-padding{
+    padding-top: 0;
+  }
+  &.remove-bottom-padding{
+    padding-bottom: 0;
+  }
+  &.remove-right-padding {
+    padding-right: 0;
+  }
+  &.remove-top-bottom-padding{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  &.type-small {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.section-info {
+  ul {
+    display: flex;
+    align-items: center;
+    li {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      line-height: 18px;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      &:not(:last-of-type) {
+        &:after {
+          display: block;
+          content: '\2022';
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}
+
+.section-title {
+}
+
+.section-body {
+  margin-top: 30px;
+}
+
+.section-links {
+  margin-top: 40px;
+}
+
+.co-btn{
+  border: 0;
+  color: $text-color;
+  display: flex;
+  align-items: center;
+  line-height: 1em;
+  outline: none;
+  transition: 250ms ease-in-out;
+  width: auto;
+
+  &:after {
+    content: '\e5cc';
+    display: block;
+    font-family: 'Material Symbols Sharp';
+    font-weight: 700;
+    margin-left: 10px;
+  }
+
+  &.type-fill {
+    display: inline-flex;
+    align-items: center;
+    padding: 18px 40px 18px 30px;
+    background-color: transparent;
+    border: 1px solid #1E1E1E;
+    border-radius: 10px;
+    color: #1E1E1E;
+    font-family: $font-type-1;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &:hover,&:focus,&:active {
+      background-color: $primary-color;
+      border: 1px solid $primary-color;
+      color: $white-color;
+    }
+    &:after {
+      display: none;
+    }
+    &:before {
+      content: '\e941';
+      display: block;
+      font-size: 30px;
+      font-family: 'Material Symbols Sharp';
+      font-weight: 300;
+      margin-right: 10px;
+    }
+
+    &#defaultbtn {
+      background-color: $primary-color;
+      border: 1px solid $primary-color;
+      color: $white-color;
+      &:hover {
+        background-color: $primary-color-dark;
+      }
+    }
+    &#eventsbtn {
+      padding: 0;
+      border: 0;
+      background-color: transparent;
+      border: 0;
+      border-radius: 0;
+      color: $text-color;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+  &.even-padding {
+    padding: 18px 40px;
+  }
+
+  &.full-width{
+    width: 100%;
+  }
+
+  &:hover,&:focus,&:active {
+    color: $primary-color;
+    transition: 250ms ease-in-out;
+  }
+}
