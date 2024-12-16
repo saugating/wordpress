@@ -1,0 +1,4 @@
+1. Figma to HTML
+2. HTML to WordPress Template
+3. ACF integration
+4. Testing and Debugging
